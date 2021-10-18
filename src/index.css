@@ -5,9 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: #e81038;
+  align-items: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card{
+  max-width: 20%;
+  margin: 20px;
+  align-items: center;
+  background-color: rgb(180, 180, 180);
+}
+
+input{
+  border-radius: 4px;
 }
